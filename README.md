@@ -31,10 +31,10 @@ It uses the `consulrun.Cmd` command to run a local server and run the test of th
 
 ## How do I use it?
 
--Download the repository 
+- Download the repository 
 	`go get github.com/as/consulrun/...`
 	
--Replace the import paths 
+- Replace the import paths 
 	`"github.com/hashicorp/consul/testutil"`  -> `"github.com/as/consulrun/testutil"`  
 
 ## Is there anything I should know before using it?
