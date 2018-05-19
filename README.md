@@ -47,13 +47,13 @@ It uses the `consulrun.Cmd` command to run a local server and run the test of th
 
 ## Does this package coexist with the regular consul?
 
--There should be no impact on consul, everything is vendored.
+- There should be no impact on consul, everything is vendored.
 
 ## How large is this package, will it bloat my project?
 
--The entire tree (this package and the vendor dir) is approx. 10MB
--The original tree was around 100MB
+- The entire tree (this package and the vendor dir) is approx. 10MB
+- The original tree was around 100MB
 
 ## License?
 	
--Public domain
+- Public domain
