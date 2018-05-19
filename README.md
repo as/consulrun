@@ -56,4 +56,5 @@ It uses the `consulrun.Cmd` command to run a local server and run the test of th
 
 ## License?
 	
-- Public domain
+- Public domain (for my changes)
+- The licenses for consul and its dependencies are provided with this distribution
