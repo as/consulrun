@@ -39,7 +39,7 @@ It uses the `consulrun.Cmd` command to run a local server and run the test of th
 
 ## Is there anything I should know before using it?
 
--Consul doesn't seem to have a way of stopping the command with cancellation
+- Consul doesn't seem to have a way of stopping the command with cancellation
 - When you use a `testutil.NewServer` to initialize a server for test, that listener will run until the test program ends.
 	- If you have a huge test that continuously creates and destroys new testutil servers stopping the test server won't work.
 	- E.g., a unit test with over ~60000 calls to `testutil.NewServer`
