@@ -99,8 +99,8 @@ var AuthRequest = func(req *http.Request) (any, sensitive bool) {
 
 func init() {
 
-	http.HandleFunc("/debug/requests", Traces)
-	http.HandleFunc("/debug/events", Events)
+//	http.HandleFunc("/debug/requests", Traces)
+//	http.HandleFunc("/debug/events", Events)
 }
 
 //
