@@ -9,10 +9,10 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/hashicorp/consul/agent"
-	"github.com/hashicorp/consul/testutil"
-	"github.com/hashicorp/consul/testutil/retry"
-	"github.com/hashicorp/consul/version"
+	"github.com/as/consulrun/hashicorp/consul/agent"
+	"github.com/as/consulrun/hashicorp/consul/testutil"
+	"github.com/as/consulrun/hashicorp/consul/testutil/retry"
+	"github.com/as/consulrun/hashicorp/consul/version"
 	"github.com/mitchellh/cli"
 )
 

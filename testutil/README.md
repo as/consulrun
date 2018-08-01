@@ -4,7 +4,7 @@
 	
 ```
 import (
-	"github.com/hashicorp/consul/api" // uses the real consul client
+	"github.com/as/consulrun/hashicorp/consul/api" // uses the real consul client
 )
 func example(){
 	s, err := testutil.NewTestServer()

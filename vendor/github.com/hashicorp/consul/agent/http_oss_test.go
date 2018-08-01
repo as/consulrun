@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hashicorp/consul/logger"
+	"github.com/as/consulrun/hashicorp/consul/logger"
 )
 
 var extraTestEndpoints = map[string][]string{

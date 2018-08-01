@@ -10,14 +10,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hashicorp/consul/agent/metadata"
-	"github.com/hashicorp/consul/agent/token"
-	"github.com/hashicorp/consul/lib/freeport"
-	"github.com/hashicorp/consul/testrpc"
-	"github.com/hashicorp/consul/testutil"
-	"github.com/hashicorp/consul/testutil/retry"
-	"github.com/hashicorp/consul/types"
-	"github.com/hashicorp/go-uuid"
+	"github.com/as/consulrun/hashicorp/consul/agent/metadata"
+	"github.com/as/consulrun/hashicorp/consul/agent/token"
+	"github.com/as/consulrun/hashicorp/consul/lib/freeport"
+	"github.com/as/consulrun/hashicorp/consul/testrpc"
+	"github.com/as/consulrun/hashicorp/consul/testutil"
+	"github.com/as/consulrun/hashicorp/consul/testutil/retry"
+	"github.com/as/consulrun/hashicorp/consul/types"
+	"github.com/as/consulrun/hashicorp/go-uuid"
 )
 
 func configureTLS(config *Config) {

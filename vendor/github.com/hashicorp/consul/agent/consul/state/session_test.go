@@ -7,10 +7,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/api"
-	"github.com/hashicorp/consul/types"
-	"github.com/hashicorp/go-memdb"
+	"github.com/as/consulrun/hashicorp/consul/agent/structs"
+	"github.com/as/consulrun/hashicorp/consul/api"
+	"github.com/as/consulrun/hashicorp/consul/types"
+	"github.com/as/consulrun/hashicorp/go-memdb"
 )
 
 func TestStateStore_SessionCreate_SessionGet(t *testing.T) {

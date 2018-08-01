@@ -9,7 +9,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hashicorp/consul/agent/structs"
+	"github.com/as/consulrun/hashicorp/consul/agent/structs"
 )
 
 func TestTxnEndpoint_Bad_JSON(t *testing.T) {

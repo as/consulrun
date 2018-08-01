@@ -7,12 +7,12 @@ import (
 	"testing"
 	"time"
 
-	rawacl "github.com/hashicorp/consul/acl"
-	"github.com/hashicorp/consul/agent/config"
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/testutil"
-	"github.com/hashicorp/consul/types"
-	"github.com/hashicorp/serf/serf"
+	rawacl "github.com/as/consulrun/hashicorp/consul/acl"
+	"github.com/as/consulrun/hashicorp/consul/agent/config"
+	"github.com/as/consulrun/hashicorp/consul/agent/structs"
+	"github.com/as/consulrun/hashicorp/consul/testutil"
+	"github.com/as/consulrun/hashicorp/consul/types"
+	"github.com/as/consulrun/hashicorp/serf/serf"
 )
 
 func TestACL_Bad_Config(t *testing.T) {

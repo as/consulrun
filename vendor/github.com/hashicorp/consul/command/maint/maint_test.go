@@ -4,8 +4,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hashicorp/consul/agent"
-	"github.com/hashicorp/consul/agent/structs"
+	"github.com/as/consulrun/hashicorp/consul/agent"
+	"github.com/as/consulrun/hashicorp/consul/agent/structs"
 	"github.com/mitchellh/cli"
 )
 

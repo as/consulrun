@@ -18,10 +18,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hashicorp/consul/lib/freeport"
-	"github.com/hashicorp/consul/testutil/retry"
-	"github.com/hashicorp/go-cleanhttp"
-	"github.com/hashicorp/go-uuid"
+	"github.com/as/consulrun/hashicorp/consul/lib/freeport"
+	"github.com/as/consulrun/hashicorp/consul/testutil/retry"
+	"github.com/as/consulrun/hashicorp/go-cleanhttp"
+	"github.com/as/consulrun/hashicorp/go-uuid"
 	"github.com/pkg/errors"
 )
 

@@ -4,9 +4,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hashicorp/consul/agent"
-	"github.com/hashicorp/consul/testutil/retry"
-	"github.com/hashicorp/serf/serf"
+	"github.com/as/consulrun/hashicorp/consul/agent"
+	"github.com/as/consulrun/hashicorp/consul/testutil/retry"
+	"github.com/as/consulrun/hashicorp/serf/serf"
 	"github.com/mitchellh/cli"
 )
 

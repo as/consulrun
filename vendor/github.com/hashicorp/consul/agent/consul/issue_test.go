@@ -5,10 +5,10 @@ import (
 	"reflect"
 	"testing"
 
-	consulfsm "github.com/hashicorp/consul/agent/consul/fsm"
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/api"
-	"github.com/hashicorp/raft"
+	consulfsm "github.com/as/consulrun/hashicorp/consul/agent/consul/fsm"
+	"github.com/as/consulrun/hashicorp/consul/agent/structs"
+	"github.com/as/consulrun/hashicorp/consul/api"
+	"github.com/as/consulrun/hashicorp/raft"
 )
 
 func makeLog(buf []byte) *raft.Log {

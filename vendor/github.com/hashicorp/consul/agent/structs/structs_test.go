@@ -6,8 +6,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hashicorp/consul/api"
-	"github.com/hashicorp/consul/types"
+	"github.com/as/consulrun/hashicorp/consul/api"
+	"github.com/as/consulrun/hashicorp/consul/types"
 )
 
 func TestEncodeDecode(t *testing.T) {

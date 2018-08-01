@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/hashicorp/consul/testutil"
-	"github.com/hashicorp/consul/testutil/retry"
+	"github.com/as/consulrun/hashicorp/consul/testutil"
+	"github.com/as/consulrun/hashicorp/consul/testutil/retry"
 	"github.com/pascaldekloe/goe/verify"
 )
 

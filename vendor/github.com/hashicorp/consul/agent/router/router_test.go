@@ -11,11 +11,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/lib"
-	"github.com/hashicorp/consul/types"
-	"github.com/hashicorp/serf/coordinate"
-	"github.com/hashicorp/serf/serf"
+	"github.com/as/consulrun/hashicorp/consul/agent/structs"
+	"github.com/as/consulrun/hashicorp/consul/lib"
+	"github.com/as/consulrun/hashicorp/consul/types"
+	"github.com/as/consulrun/hashicorp/serf/coordinate"
+	"github.com/as/consulrun/hashicorp/serf/serf"
 )
 
 type mockCluster struct {

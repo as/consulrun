@@ -3,7 +3,7 @@ package state
 import (
 	"testing"
 
-	"github.com/hashicorp/consul/agent/structs"
+	"github.com/as/consulrun/hashicorp/consul/agent/structs"
 )
 
 var index PreparedQueryIndex

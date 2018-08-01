@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hashicorp/serf/serf"
+	"github.com/as/consulrun/hashicorp/serf/serf"
 )
 
 func TestServerHealth_IsHealthy(t *testing.T) {

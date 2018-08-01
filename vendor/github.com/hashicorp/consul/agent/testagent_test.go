@@ -3,8 +3,8 @@ package agent
 import (
 	"testing"
 
-	"github.com/hashicorp/consul/agent/config"
-	"github.com/hashicorp/hcl"
+	"github.com/as/consulrun/hashicorp/consul/agent/config"
+	"github.com/as/consulrun/hashicorp/hcl"
 )
 
 func TestDefaultConfig(t *testing.T) {

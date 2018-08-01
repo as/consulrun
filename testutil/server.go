@@ -30,10 +30,10 @@ import (
 	"github.com/as/consulrun"
 	"errors"
 
-	"github.com/hashicorp/consul/lib/freeport"
-	"github.com/hashicorp/consul/testutil/retry"
-	"github.com/hashicorp/go-cleanhttp"
-	"github.com/hashicorp/go-uuid"
+	"github.com/as/consulrun/hashicorp/consul/lib/freeport"
+	"github.com/as/consulrun/hashicorp/consul/testutil/retry"
+	"github.com/as/consulrun/hashicorp/go-cleanhttp"
+	"github.com/as/consulrun/hashicorp/go-uuid"
 )
 
 // TestPerformanceConfig configures the performance parameters.
@@ -296,7 +296,7 @@ type failer struct {
 	failed bool
 }
 
-func (f *failer) Log(args ...interface{}) { fmt.Println(args) }
+func (f *failer) Log(args ...interface{}) { fmt.Println(args...) }
 func (f *failer) FailNow()                { f.failed = true }
 
 // waitForAPI waits for only the agent HTTP endpoint to start

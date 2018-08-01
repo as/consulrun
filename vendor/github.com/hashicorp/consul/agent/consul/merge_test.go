@@ -4,8 +4,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hashicorp/consul/types"
-	"github.com/hashicorp/serf/serf"
+	"github.com/as/consulrun/hashicorp/consul/types"
+	"github.com/as/consulrun/hashicorp/serf/serf"
 )
 
 func makeNode(dc, name, id string, server bool, build string) *serf.Member {

@@ -10,8 +10,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hashicorp/consul/testutil"
-	"github.com/hashicorp/memberlist"
+	"github.com/as/consulrun/hashicorp/consul/testutil"
+	"github.com/as/consulrun/hashicorp/memberlist"
 )
 
 func checkForKey(key string, keyring *memberlist.Keyring) error {

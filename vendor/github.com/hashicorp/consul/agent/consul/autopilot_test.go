@@ -5,10 +5,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hashicorp/consul/testrpc"
-	"github.com/hashicorp/consul/testutil/retry"
-	"github.com/hashicorp/raft"
-	"github.com/hashicorp/serf/serf"
+	"github.com/as/consulrun/hashicorp/consul/testrpc"
+	"github.com/as/consulrun/hashicorp/consul/testutil/retry"
+	"github.com/as/consulrun/hashicorp/raft"
+	"github.com/as/consulrun/hashicorp/serf/serf"
 )
 
 func TestAutopilot_IdempotentShutdown(t *testing.T) {

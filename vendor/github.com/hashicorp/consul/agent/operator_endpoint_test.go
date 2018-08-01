@@ -8,10 +8,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hashicorp/consul/agent/consul/autopilot"
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/api"
-	"github.com/hashicorp/consul/testutil/retry"
+	"github.com/as/consulrun/hashicorp/consul/agent/consul/autopilot"
+	"github.com/as/consulrun/hashicorp/consul/agent/structs"
+	"github.com/as/consulrun/hashicorp/consul/api"
+	"github.com/as/consulrun/hashicorp/consul/testutil/retry"
 )
 
 func TestOperator_RaftConfiguration(t *testing.T) {

@@ -9,8 +9,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hashicorp/consul/acl"
-	"github.com/hashicorp/consul/agent/structs"
+	"github.com/as/consulrun/hashicorp/consul/acl"
+	"github.com/as/consulrun/hashicorp/consul/agent/structs"
 )
 
 func TestACL_Disabled_Response(t *testing.T) {

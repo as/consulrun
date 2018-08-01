@@ -7,8 +7,8 @@ import (
 	"regexp"
 	"testing"
 
-	"github.com/hashicorp/go-version"
-	"github.com/hashicorp/serf/serf"
+	"github.com/as/consulrun/hashicorp/go-version"
+	"github.com/as/consulrun/hashicorp/serf/serf"
 )
 
 func TestGetPrivateIP(t *testing.T) {

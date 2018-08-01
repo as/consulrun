@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/hashicorp/consul/agent/metadata"
-	"github.com/hashicorp/raft"
+	"github.com/as/consulrun/hashicorp/consul/agent/metadata"
+	"github.com/as/consulrun/hashicorp/raft"
 )
 
 type testAddr struct {

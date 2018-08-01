@@ -6,13 +6,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hashicorp/consul/acl"
-	"github.com/hashicorp/consul/agent/consul/autopilot"
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/testrpc"
-	"github.com/hashicorp/consul/testutil/retry"
-	"github.com/hashicorp/net-rpc-msgpackrpc"
-	"github.com/hashicorp/raft"
+	"github.com/as/consulrun/hashicorp/consul/acl"
+	"github.com/as/consulrun/hashicorp/consul/agent/consul/autopilot"
+	"github.com/as/consulrun/hashicorp/consul/agent/structs"
+	"github.com/as/consulrun/hashicorp/consul/testrpc"
+	"github.com/as/consulrun/hashicorp/consul/testutil/retry"
+	"github.com/as/consulrun/hashicorp/net-rpc-msgpackrpc"
+	"github.com/as/consulrun/hashicorp/raft"
 )
 
 func TestOperator_Autopilot_GetConfiguration(t *testing.T) {

@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	discover "github.com/hashicorp/go-discover"
+	discover "github.com/as/consulrun/hashicorp/go-discover"
 )
 
 func TestGoDiscoverRegistration(t *testing.T) {

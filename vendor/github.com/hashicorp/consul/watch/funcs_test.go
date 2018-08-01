@@ -7,9 +7,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hashicorp/consul/agent"
-	consulapi "github.com/hashicorp/consul/api"
-	"github.com/hashicorp/consul/watch"
+	"github.com/as/consulrun/hashicorp/consul/agent"
+	consulapi "github.com/as/consulrun/hashicorp/consul/api"
+	"github.com/as/consulrun/hashicorp/consul/watch"
 )
 
 var errBadContent = errors.New("bad content")

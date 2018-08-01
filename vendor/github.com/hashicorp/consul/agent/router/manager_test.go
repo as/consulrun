@@ -9,8 +9,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hashicorp/consul/agent/metadata"
-	"github.com/hashicorp/consul/agent/router"
+	"github.com/as/consulrun/hashicorp/consul/agent/metadata"
+	"github.com/as/consulrun/hashicorp/consul/agent/router"
 )
 
 type fauxAddr struct {

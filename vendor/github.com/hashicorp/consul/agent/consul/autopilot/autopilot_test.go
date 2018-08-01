@@ -5,7 +5,7 @@ import (
 	"net"
 	"testing"
 
-	"github.com/hashicorp/serf/serf"
+	"github.com/as/consulrun/hashicorp/serf/serf"
 )
 
 func TestMinRaftProtocol(t *testing.T) {

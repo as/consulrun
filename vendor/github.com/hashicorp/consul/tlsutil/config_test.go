@@ -10,7 +10,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hashicorp/yamux"
+	"github.com/as/consulrun/hashicorp/yamux"
 )
 
 func TestConfig_AppendCA_None(t *testing.T) {

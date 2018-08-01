@@ -3,7 +3,7 @@ package testutil
 import (
 	"testing"
 
-	"github.com/hashicorp/consul/api"
+	"github.com/as/consulrun/hashicorp/consul/api"
 )
 func TestQuiet(t *testing.T) {
 	s, err := NewQuietServer()

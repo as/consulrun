@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hashicorp/serf/coordinate"
+	"github.com/as/consulrun/hashicorp/serf/coordinate"
 	"github.com/pascaldekloe/goe/verify"
 )
 

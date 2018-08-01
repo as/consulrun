@@ -6,8 +6,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hashicorp/consul/agent"
-	"github.com/hashicorp/consul/testutil"
+	"github.com/as/consulrun/hashicorp/consul/agent"
+	"github.com/as/consulrun/hashicorp/consul/testutil"
 	"github.com/mitchellh/cli"
 )
 

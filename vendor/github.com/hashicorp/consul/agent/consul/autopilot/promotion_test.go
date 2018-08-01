@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hashicorp/raft"
+	"github.com/as/consulrun/hashicorp/raft"
 	"github.com/pascaldekloe/goe/verify"
 )
 

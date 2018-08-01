@@ -11,7 +11,7 @@ import (
 	"time"
 
 	"github.com/armon/go-metrics"
-	"github.com/hashicorp/go-msgpack/codec"
+	"github.com/as/consulrun/hashicorp/go-msgpack/codec"
 )
 
 const (

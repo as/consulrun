@@ -4,8 +4,8 @@ import (
 	"net"
 	"testing"
 
-	"github.com/hashicorp/consul/agent/metadata"
-	"github.com/hashicorp/serf/serf"
+	"github.com/as/consulrun/hashicorp/consul/agent/metadata"
+	"github.com/as/consulrun/hashicorp/serf/serf"
 )
 
 func TestServer_Key_params(t *testing.T) {

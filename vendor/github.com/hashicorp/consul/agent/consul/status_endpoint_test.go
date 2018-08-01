@@ -7,9 +7,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hashicorp/consul/agent/pool"
-	"github.com/hashicorp/consul/testrpc"
-	"github.com/hashicorp/net-rpc-msgpackrpc"
+	"github.com/as/consulrun/hashicorp/consul/agent/pool"
+	"github.com/as/consulrun/hashicorp/consul/testrpc"
+	"github.com/as/consulrun/hashicorp/net-rpc-msgpackrpc"
 )
 
 func rpcClient(t *testing.T, s *Server) rpc.ClientCodec {

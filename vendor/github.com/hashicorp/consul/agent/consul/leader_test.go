@@ -5,12 +5,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/api"
-	"github.com/hashicorp/consul/testrpc"
-	"github.com/hashicorp/consul/testutil/retry"
-	"github.com/hashicorp/net-rpc-msgpackrpc"
-	"github.com/hashicorp/serf/serf"
+	"github.com/as/consulrun/hashicorp/consul/agent/structs"
+	"github.com/as/consulrun/hashicorp/consul/api"
+	"github.com/as/consulrun/hashicorp/consul/testrpc"
+	"github.com/as/consulrun/hashicorp/consul/testutil/retry"
+	"github.com/as/consulrun/hashicorp/net-rpc-msgpackrpc"
+	"github.com/as/consulrun/hashicorp/serf/serf"
 )
 
 func TestLeader_RegisterMember(t *testing.T) {

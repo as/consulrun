@@ -3,8 +3,8 @@ package metadata
 import (
 	"testing"
 
-	"github.com/hashicorp/go-version"
-	"github.com/hashicorp/serf/serf"
+	"github.com/as/consulrun/hashicorp/go-version"
+	"github.com/as/consulrun/hashicorp/serf/serf"
 	"github.com/pascaldekloe/goe/verify"
 )
 

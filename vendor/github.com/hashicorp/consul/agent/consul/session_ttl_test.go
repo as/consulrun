@@ -7,11 +7,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/testrpc"
-	"github.com/hashicorp/consul/testutil/retry"
-	"github.com/hashicorp/go-uuid"
-	"github.com/hashicorp/net-rpc-msgpackrpc"
+	"github.com/as/consulrun/hashicorp/consul/agent/structs"
+	"github.com/as/consulrun/hashicorp/consul/testrpc"
+	"github.com/as/consulrun/hashicorp/consul/testutil/retry"
+	"github.com/as/consulrun/hashicorp/go-uuid"
+	"github.com/as/consulrun/hashicorp/net-rpc-msgpackrpc"
 )
 
 func generateUUID() (ret string) {

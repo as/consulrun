@@ -10,7 +10,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hashicorp/consul/agent/metadata"
+	"github.com/as/consulrun/hashicorp/consul/agent/metadata"
 )
 
 var (

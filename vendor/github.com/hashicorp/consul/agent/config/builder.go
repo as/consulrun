@@ -14,13 +14,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/hashicorp/consul/agent/consul"
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/ipaddr"
-	"github.com/hashicorp/consul/tlsutil"
-	"github.com/hashicorp/consul/types"
-	multierror "github.com/hashicorp/go-multierror"
-	"github.com/hashicorp/go-sockaddr/template"
+	"github.com/as/consulrun/hashicorp/consul/agent/consul"
+	"github.com/as/consulrun/hashicorp/consul/agent/structs"
+	"github.com/as/consulrun/hashicorp/consul/ipaddr"
+	"github.com/as/consulrun/hashicorp/consul/tlsutil"
+	"github.com/as/consulrun/hashicorp/consul/types"
+	multierror "github.com/as/consulrun/hashicorp/go-multierror"
+	"github.com/as/consulrun/hashicorp/go-sockaddr/template"
 	"golang.org/x/time/rate"
 )
 
