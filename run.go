@@ -7,8 +7,8 @@ import (
 	"log"
 	"os"
 
-	"github.com/hashicorp/consul/command"
-	"github.com/hashicorp/consul/lib"
+	"github.com/as/consulrun/hashicorp/consul/command"
+	"github.com/as/consulrun/hashicorp/consul/lib"
 	"github.com/mitchellh/cli"
 )
 
